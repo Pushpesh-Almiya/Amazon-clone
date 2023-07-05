@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+.navbar{
+    width: 100vw;
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo{
+    width: 112px;
+    height: 50px;
+}
+.logo{
+    width: 112px;
+    height: 100%;
+    background-image: url("./img/amazon_logo.png");
+    background-size: cover;
+}
+.border:hover{
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.address{
+    width: 90px;
+    height: 50px;
+}
+.add-first{
+    color: #cccccc;
+    font-size: 0.85rem;
+    padding-left: 1.2em;
+    padding-top: 1em;
+}
+.add-icon{
+    display: flex;
+}
+.add-second{
+    font-size: 1rem;
+    padding-left: 0.4em;
+    font-weight: bold;
+}
+/* Search Bar  */
+.searchBar{
+    display: flex;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+.searchBar:hover{
+    border: 2px solid orange;
+}
+.search-select{
+    background-color: #eae4e4;
+    color: #0f1111;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    text-align: center;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    padding: 7px 10px 10px 5px;
+    font-size: 1rem;
+    border: none;
+}
+.search{
+    width: 55px;
+    background-color: #d89c4d;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 1.2rem;
+    border: none;
+    color: #262929;
+}
+/* language */
+.language{
+    width: 50px;
+    height: 30px;
+    display: flex;
+}
+.india{
+    background-image: url("./img/ind.png");
+    width: 21px;
+    margin-top: 15px;
+    height: 16px;
+    background-size: cover;
+}
+.language p{
+    padding-left: .5em;
+    font-weight: 700;
+    padding-top: 15px;
+}
+/* loginBox */
+span{
+    font-size: 12px;
+}
+.loweLine{
+    font-size: 14px;
+    font-weight: 700;
+}
+/* Cart Box */
+.cart {
+    display: flex;
+}
+.cart i{
+    font-size: 30px;
+}
+.cart P{
+    font-size: 20px;
+    font-weight: 700;
+    padding-top: 10px;
+}
+.pad{
+    padding: 10px;
+}
