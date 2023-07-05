@@ -1,0 +1,22 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url("../img/tiger.webp");
+    background-size: contain;
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+.box1{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-image: url("../img/Dear.jpg");
+    background-size: contain;
+    position: sticky;
+    top: 10px;
+}

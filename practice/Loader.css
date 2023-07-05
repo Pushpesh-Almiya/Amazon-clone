@@ -1,0 +1,19 @@
+.box{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 500px;
+    border: 15px solid #ffee6d;
+    border-top: 15px solid #4ecdc4;
+    animation: rotate 1s ease-in-out infinite;  
+}
+@keyframes rotate{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
